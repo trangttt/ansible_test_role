@@ -1,0 +1,5 @@
+---
+# vars file for test_role
+vars:
+    - var1
+    - var2

@@ -1,0 +1,8 @@
+---
+# tasks file for test_role
+    - name : Print something
+      command: echo "This is test_role"
+
+    - name : Test variables
+      command: echo "Testing variable {{ item }}"
+      with_items: "{{ vars  }}"
